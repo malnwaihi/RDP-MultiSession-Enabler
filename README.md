@@ -3,7 +3,7 @@ PowerShell script to enable multiple concurrent RDP sessions on Windows by patch
 
 # 🚀 RDP Multi-Session Enabler for Windows
 
-[![Version](https://img.shields.io/badge/version-6.4-blue.svg)](https://github.com/malnwaihi/RDP-MultiSession-Enabler/releases)
+[![Version](https://img.shields.io/badge/version-6.5-blue.svg)](https://github.com/malnwaihi/RDP-MultiSession-Enabler/releases)
 [![PowerShell](https://img.shields.io/badge/powerShell-5.1%2B-brightgreen.svg)](https://github.com/PowerShell/PowerShell)
 [![Windows](https://img.shields.io/badge/windows-11%2F10%2F7-blue.svg)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -38,6 +38,7 @@ PowerShell script to enable multiple concurrent RDP sessions on Windows by patch
 
 ### One-Line Installation
 
+```powershell
 ```powershell
 # Download and run (as Administrator)
 iex (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/malnwaihi/RDP-MultiSession-Enabler/main/RDP-MultiSession-Enabler.ps1" -UseBasicParsing).Content
